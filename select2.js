@@ -3199,7 +3199,7 @@ the specific language governing permissions and limitations under the Apache Lic
     };
 
     // exports
-    window.Select2 = {
+    module.exports = {
         query: {
             ajax: ajax,
             local: local,
